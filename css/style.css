@@ -723,11 +723,12 @@ header .header-2.header-active{
 
     header .header-2 .navbar{
         position: fixed;
-        top: -200rem; left: 50%;
+        top: -200rem;
+        left: 50%;
         transform: translate(-50%, -50%);
         box-shadow: 0 0 0 100vh rgba(0,0,0,.3);
         z-index: 10000;
-        opacity: 0;
+        opacity: 1;
     }
 
     header .header-2 .navbar ul{
@@ -751,7 +752,7 @@ header .header-2.header-active{
     }
 
     .fa-times{
-        transform: rotate(180deg);
+        transform: rotate(180deg); 
     }
 
     header .header-2 .nav-toggle{
